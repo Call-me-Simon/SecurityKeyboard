@@ -2,8 +2,8 @@
 //  GJKeyboard.h
 //  GJKeyboard
 //
-//  Created by Yorke on 15/5/9.
-//  Copyright (c) 2015年 wutongr. All rights reserved.
+//  Created by Simon on 15/5/9.
+//  Copyright (c) 2015年 Simon. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,9 +18,9 @@ typedef NS_ENUM(NSUInteger, GJKeyboardType) {
 
 - (instancetype)init;
 
-@property (nonatomic, strong) UIImageView *keyboardBackground;
-@property (nonatomic, strong) UILabel *stateLabel;
-@property (nonatomic, assign) GJKeyboardType keyboardtype;
-@property (nonatomic, strong) id<UITextInput> textView;
+@property (nonatomic, strong) UIImageView *keyboardBackground;  //背景图片
+@property (nonatomic, strong) UILabel *stateLabel;              //顶部提示文字
+@property (nonatomic, assign) GJKeyboardType keyboardtype;      //安全键盘类型
+@property (nonatomic, strong) id<UITextInput> textView;         //键盘对象（传入UITextField或UITextView对象）
 
 @end

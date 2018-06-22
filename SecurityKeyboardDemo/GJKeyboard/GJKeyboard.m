@@ -2,8 +2,8 @@
 //  GJKeyboard.m
 //  GJKeyboard
 //
-//  Created by Yorke on 15/5/9.
-//  Copyright (c) 2015年 wutongr. All rights reserved.
+//  Created by Simon on 15/5/9.
+//  Copyright (c) 2015年 Simon. All rights reserved.
 //
 
 #import "GJKeyboard.h"
