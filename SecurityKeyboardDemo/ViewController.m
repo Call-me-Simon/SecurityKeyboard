@@ -27,7 +27,7 @@
     
     GJKeyboard *keyboard = [[GJKeyboard alloc] init];
     [keyboard setTextView:textField];
-    [keyboard.stateLabel setText:@"中国电信安全键盘"];
+    [keyboard.stateLabel setText:@"安全键盘"];
     keyboard.keyboardtype = GJKeyboardTypeNumKeyPad;
     
     // Do any additional setup after loading the view, typically from a nib.
